@@ -1,0 +1,265 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a, div, footer {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 10px;
+	width: 100%;
+}
+
+p {
+	font-size: 1.3em;
+	color: #132434;
+}
+
+.bckimg {
+	background-image: url("img/img01.jpg");
+	width: 100%;
+	height: 80%;
+}
+
+.container {
+	width: 70%;
+	margin-left: 15%
+}
+
+.container nav ul {
+	list-style-type: none;
+	float: right;
+	margin-top: 35px;
+	;
+}
+
+.container nav ul li {
+	display: inline;
+	margin-right: 18px
+}
+
+.container nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.3em;
+}
+
+.container nav ul li a:hover {
+	background-color: #132434;
+	color: white;
+}
+
+header .logo {
+	width: 30%;
+}
+
+header .logo h1 {
+	font-size: 3em;
+	color: black;
+	padding-top: 20px;
+	float: left;
+	display: inline-block
+}
+
+.bigimg img {
+	width: 100%;
+	margin-top: 5%;
+}
+
+.bigimg .bckimg2 {
+	background-image: url("img/img03.png");
+	width: 98%;
+	height: 96%;
+	text-align: center;
+	
+	background-repeat: no-repeat;
+}
+
+.clear-box {
+	clear: both;
+	overflow: hidden;
+}
+
+.midpage {
+	margin-top: 40px;
+	color: #132434;
+}
+
+.midpage h2 {
+	font-size: 1.7em;
+}
+
+.leftimg {
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.leftimg img {
+	width: 97%;
+	height: 22%;
+}
+
+.imgtext {
+	margin-top: 20px;
+}
+
+.button button {
+	background-color: #132434;
+	color: white;
+	margin-top: 5%;
+	border: none;
+	height: 4%;
+	border-radius: 5px;
+}
+
+.pic1 {
+	float: left;
+}
+
+.pic2 {
+	float: left;
+	margin-left: 2.3%;
+}
+
+.line1 hr {
+	margin-top: 2%;
+	width: 100%;
+}
+
+.downhead {
+	margin-top: 4%;
+	color: #132434;
+}
+
+.downhead h3 {
+	font-size: 3em;
+}
+
+.downtext {
+	margin-top: 2%;
+}
+
+.downtext p {
+	margin-top: 0.5%
+}
+
+.dpart1 {
+	float: left;
+	margin-top: 0.5%;
+}
+
+.downul {
+	width: 20%;
+	float: right;
+	margin-top: 4%;
+}
+
+.downul ul h4 {
+	font-size: 1.7em;
+	color: #132434;
+}
+
+.downul ul li {
+	margin-top: 1%
+}
+
+.downul ul li a {
+	font-size: 1.3em;
+	color: #132434;
+}
+
+footer {
+	width: 100%;
+	height: 35%;
+	background-color: #132434;
+	color: white;
+	margin-top: 3%;
+}
+
+footer .footul {
+
+	color: white;
+	padding-top: 1%;
+}
+
+footer .foothead h4 {
+	font-size: 1.6em;
+}
+
+footer .footul ul {
+	list-style-type: none;
+}
+
+footer .footul ul li {
+	margin-top: 2.2%
+}
+
+footer .footul ul li a {
+	font-size: 1.3em;
+	color: white;
+}
+
+.dleft {
+	width: 28%;
+	padding-top: 1%;
+	float: left;
+}
+
+.dcenter {
+	width: 28%;
+	padding-top: 1%;
+	margin-left: 8%;
+	float: left;
+}
+
+@media screen and (max-width: 600px) {
+
+	header {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	header .logo h1 {
+		margin-left: 100%;
+	}
+
+	header .bckimg nav ul {
+
+	}
+
+	.headline h2 {
+		text-align: center;
+		margin-top: 7%;
+	}
+
+	.container {
+		margin: 0 auto;
+	}
+
+	.midpage .pic1, .pic2 {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.button button {
+		margin: 0 auto;
+	}
+
+	.dpart1 {
+
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.downul {
+		float: none;
+		margin: 0 auto;
+		padding-top: 2%;
+	}
+
+	footer {
+		height: 55%;
+	}
+}
+
